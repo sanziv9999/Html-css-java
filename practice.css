@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    margin-top: 30px;
+}
+
+
+.logo{
+    margin:15px 30px ;
+    cursor: pointer;
+}
+.nav .row{
+        align-items: center;
+}
+.tag ul li{
+    display: inline-block;
+    margin: 0 30px; 
+    position: relative;
+    
+}
+.tag ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.tag ul li::after{
+    content:'';
+    height:3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+}
+
+.tag ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    margin-top: 10px;
+    position: relative;
+}
+
+.content .container{
+    width: 100%;
+    padding: 0 0;
+}
+
+.content .text{
+    
+    font-size: 60px;
+    height:fit-content;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:35%;
+    
+}
+.content .button button{
+    position: absolute;
+    top:450px;
+    width: 200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    background: transparent;
+    color:whitesmoke;
+    cursor:pointer;
+
+}
+.content button::after{
+    content: '';
+    width: 0;
+    left: 0;
+    top: 0;
+    border-radius: 25px;
+    background-color: rgb(177, 177, 177);
+    opacity: 30%;
+    height: 100%;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.content button:hover::after{
+    width: 100%;
+}
+
+.product{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.product h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top:10px;
+}
+.product h6{
+    padding: 11px;
+    border: solid 2px rgb(235, 243, 146);
+    background-color: rgb(242, 244, 146);
+    min-width: auto;
+    
+}
+
+.product p{
+    padding:15px 20px;
+    text-align: justify;
+}
+.product ul li{
+    display: inline-block;
+}
+.product .container .row {
+    padding:15px 0px;
+}
+.product .container .row .col-lg-4 .buy{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    padding:15px;
+    background-color: #5e5f61;
+    width: 100%;
+    border-radius: 11px;
+
+}
+.product .container .row .col-lg-4 {
+    text-align: center;
+    align-content: center;
+    padding-top:10px;
+    cursor: pointer;
+}
+.product .container .row .col-lg-4 .item{
+    border:solid 4px gray;
+    border-radius: 20px;
+    border-style:groove;
+    height: 100%;
+}
+.product .container .row .col-lg-4 .pic{
+    padding-top: 15px;
+}
+
+
+.footer .container{
+	background-color: #24262b;
+    padding: 60px;
+    margin:auto;
+}
+
+.footer .col-lg-3{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer .col-lg-3 h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+    margin-left: 30px;
+	font-weight: 500;
+    position: relative;
+}
+.footer .col-lg-3 h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	width: 50px;
+}
+
+.footer .col-lg-3 ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer .col-lg-3 ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	transition: all 0.3s ease;
+
+}
+
+.footer .col-lg-3 ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer .col-lg-3 .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+    text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer .col-lg-3 .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
