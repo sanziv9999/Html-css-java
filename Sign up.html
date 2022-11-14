@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <!--  putting favicon icon -->  
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <!--  linking the css -->  
+        <link href="signup.css" rel="stylesheet">
+         </head>
+       <body>
+        <div class="main">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" style="color: rgb(170, 170, 170); font-size: 12px;" class="toogle-btn" onclick="login()">Log in</button>
+                    <button type="button" style="color: rgb(170, 170, 170); font-size: 13px;" class="toogle-btn" onclick="signup()">Sign up</button> 
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username" required>
+                    <input type="text" class="input-field" placeholder="Enter password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <a href="practice.html" button type="submit" class="submit-btn">Log in</button></a>
+                
+                </form>
+                <form id="signup" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter password" required>
+                    <input type="checkbox" class="check-box"><span>I agree to the terms & conditios </span>
+                    <a href="pracrice.html" button type="submit" class="submit-btn">Sign up</button></a>
+                </form>
+
+            </div>
+            
+<script>
+    var x= document.getElementById("login");
+    var y= document.getElementById("signup");
+    var z= document.getElementById("btn");
+
+    function signup(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+    }
+    function login(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+    }
+</script>
+       </body>
+</html>

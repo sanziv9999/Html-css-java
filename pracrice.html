@@ -17,137 +17,120 @@
 
 <body>
   <div class="slotus">
-    <div class="nav">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2">
-            <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\black.png" height="83px" width="60px"
-              class="logo">
-          </div>
-          <div class="col-lg-8">
-            <div class="tag">
-              <ul>
-                <li><a href>Home</a></li>
-                <li><a href>Features</a></li>
-                <li><a href>Contact us</a></li>
-                <li><a href>Feedback</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2">
-
-          </div>
-        </div>
-      </div>
+    <div class="navbar sticky-top">
+      <img src="assets/blackk.png" height="83px" width="60px" class="logo">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+      <a href="Sign up.html" button type="button" class="button">Log in</button></a>
     </div>
 
     <div class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\Main Header.jpg" width=100% class="image">
-            <div class="text" style="text-align:center;">Make a path for a<br>&nbsp;win on every game</div>
-            <div class="button">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button type="button">Get
-                Started</button></div>
-          </div>
+      <section id="home">
+        <img src="assets\Main Header.jpg" width=100% class="image">
+        <div class="text" style="text-align:center;">Make a path for a<br>&nbsp;win on every game</div>
         </div>
-      </div>
+      </section>
     </div>
     <div class="product">
-      <div class="container">
-        <div class="row" style="justify-content: center;">
-          <div class="col-lg-6">
-            <div class="input-group">
-              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                aria-describedby="search-addon" />
-              <button type="button" class="btn btn-outline-primary">search</button>
+      <section id="product">
+        <div class="container">
+          <div class="row" style="justify-content: center;">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                  aria-describedby="search-addon" />
+                <button type="button" class="btn btn-outline-primary">search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="product-container">
+                <div class="item">
+                  <div class="title">
+                    Mouse
+                  </div>
+                  <div class="image"><img src="assets/mouse.png"></div>
+                  <div class="text">Razer Mamba Elite Wired Gaming Mouse: 16,000 DPI Optical Sensor - Chroma RGB Lighting - 9 Programmable Buttons - Mechanical Switches</div>
+                  <div class="price">Rs. 2200</div>
+                  <div class="star">
+                    <div class="rating">
+                      <input type="radio" id="five1" name="rate-1" value="5">
+                      <label for="five1"></label>
+                      <input type="radio" id="four1" name="rate-1" value="4">
+                      <label for="four1"></label>
+                      <input type="radio" id="three1" name="rate-1" value="3">
+                      <label for="three1"></label>
+                      <input type="radio" id="two1" name="rate-1" value="2">
+                      <label for="two1"></label>
+                      <input type="radio" id="one1" name="rate-1" value="1">
+                      <label for="one1"></label>
+                      <span class="result"></span>
+                    </div>
+                  </div>
+                  <a href="payment.html" button type="button" class="Buy-button">Buy Now</button></a>
+                </div>
+
+                <div class="item">
+                  <div class="title">
+                    Keyboard
+                  </div>
+                  <div class="image"><img src="assets/keyboard.png"></div>
+                  <div class="text">MAXFIT61 -60% Factor Hot Swappable Blue or Red Switch -RGB Backlighting Detachable Type-C Cable -Full Keys Anti-Ghosting</div>
+                  <div class="price">Rs. 5500</div>
+                    <div class="star">
+                      <div class="rating">
+                      <input type="radio" id="five2" name="rate-2" value="5">
+                      <label for="five2"></label>
+                      <input type="radio" id="four2" name="rate-2" value="4">
+                      <label for="four2"></label>
+                      <input type="radio" id="three2" name="rate-2" value="3">
+                      <label for="three2"></label>
+                      <input type="radio" id="two2" name="rate-2" value="2">
+                      <label for="two2"></label>
+                      <input type="radio" id="one2" name="rate-2" value="1">
+                      <label for="one2"></label>
+                      <span class="result"></span>
+                    </div>
+                  </div>
+                  <a href="payment.html" button type="button" class="Buy-button">Buy Now</button></a>
+                </div>
+
+                <div class="item">
+                  <div class="title">
+                    Headphone
+                  </div>
+                  <div class="image"><img src="assets/headphone.png"></div>
+                  <div class="text">Redgear Cloak comes with 50mm Driver with Enhanced audio bass and clarity which dramatically improves your in-game sound experience</div>
+                  <div class="price">Rs. 3200</div>
+                  <div class="star">
+                    <div class="rating">
+                      <input type="radio" id="five3" name="rate" value="5">
+                      <label for="five3"></label>
+                      <input type="radio" id="four3" name="rate" value="4">
+                      <label for="four3"></label>
+                      <input type="radio" id="three3" name="rate" value="3">
+                      <label for="three3"></label>
+                      <input type="radio" id="two3" name="rate" value="2">
+                      <label for="two3"></label>
+                      <input type="radio" id="one3" name="rate" value="1">
+                      <label for="one3"></label>
+                      <span class="result"></span>
+                    </div>
+                  </div>
+                  <a href="payment.html" button type="button" class="Buy-button">Buy Now</button></a>
+                </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="item">
-                <div class="mouse">
-                  <img src="assets/mouse.png" class="pic" alt="mouse" width="35%">
-                  <h3>Mouse</h3>
-                  <P>Razer Mamba Elite Wired Gaming Mouse: 16,000 DPI Optical Sensor - Chroma RGB Lighting - 9 Programmable Buttons - Mechanical Switches</P>
-                  <h6>Rs.6500</h6>
-                  <ul>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                  </ul>
-                  <button class="buy">Buy Now</button>
-                </div>
-              </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="item">
-                <div class="keyboard">
-                  <img src="assets/keyboard.png" class="pic" alt="keyboard" width="104%" >
-                  <h3>Keyboard</h3>
-                  <P>MAXFIT61
-                    -60% Factor Hot Swappable Blue or Red Switch
-                    -RGB Backlighting Detachable Type-C Cable
-                    -Full Keys Anti-Ghosting
-                  </P>
-                  <h6>Rs.6500</h6>
-                  <ul>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star checked"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                  </ul>
-                  <button class="buy">Buy Now</button>
-                </div>
-              </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="item">
-              <div class="headphone">
-                <img src="assets/headphone.png" class="pic" alt="headphone" width="42%" height="100%"> 
-                <h3>Headphone</h3>
-                <P>Redgear Cloak comes with 50mm Driver with Enhanced audio bass and clarity which dramatically improves your in-game sound experience</P>
-                <h6>Rs.6500</h6>
-                <ul>
-                  <li><i class="fa fa-star checked"></i></li>
-                  <li><i class="fa fa-star checked"></i></li>
-                  <li><i class="fa fa-star checked"></i></li>
-                  <li><i class="fa fa-star checked"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <button class="buy">Buy Now</button>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-    </div>
-    <div class="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12" style="margin: 15px 0px;">
-            <div class="topic" style="font-size: 30px; text-align: center; padding: 15px 0px; "><b>Contact Us</b></div>
-            <div class="form" style="font-size: 20px; padding: 15px 0px;">
-              <form action="/action_page.php" method="post">
-                &emsp;&emsp;<label for="Full name">Full name:</label>
-              &emsp;&nbsp;&emsp;<input type="text" id="fname" name="fname" required><br><br>
-              &emsp;&emsp;<label for="email">Email address:</label>
-              &nbsp;<input type="email" id="email" name="email" required><br> <br>
-              &emsp;&emsp;<label for="Contact">Contact no:</label>
-              &emsp;&ensp;&nbsp;<input type="text" id="contact" name="contact" required><br><br>
-              &emsp;&emsp;<label for="Feedback">Feedback:</label>
-              &ensp;&emsp;&nbsp;&ensp;<input type="text" id="Feedback" name="Feedback" required><br><br>
-              &emsp;&emsp;<input type="submit" value="Submit" class="but" style="border-radius:11px; padding: 4px;">
-            </form></div>
-          </div>
-        </div>
-      </div>
+    </section>
     </div>
     <div class="footer">
       <div class="container">
@@ -168,25 +151,25 @@
               <li><a href="#">shipping</a></li>
               <li><a href="#">returns</a></li>
               <li><a href="#">order status</a></li>
-              <li><a href="#">payment options</a></li>
+              <li><a href="payment.html">payment options</a></li>
             </ul>
           </div>
           <div class="col-lg-3">
             <h4>online shop</h4>
             <ul>
-              <li><a href="#">Mouse</a></li>
-              <li><a href="#">Keyboard</a></li>
-              <li><a href="#">Headphone</a></li>
-              <li><a href="#">Microphone</a></li>
+              <li><a href="#product">Mouse</a></li>
+              <li><a href="#product">Keyboard</a></li>
+              <li><a href="#product">Headphone</a></li>
+              <li><a href="#product">Microphone</a></li>
             </ul>
           </div>
           <div class="col-lg-3">
             <h4>follow us</h4>
             <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/?stype=lo&jlou=AfdPE01hYfXJe268mgnClGYi6fQ7-METnDNtNwkx-JFOUWi4alnTyRIUA_AOGWaOBa_xWNU1JpFdHwfeCta_ddRtutnNCnNbeC8HeOuyVbHX9A&smuh=30142&lh=Ac9M-GPrPfqnGAKp-tI"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>

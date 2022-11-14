@@ -1,0 +1,21 @@
+
+
+*{
+    margin: 30px 15px;
+}
+.col-lg-12{
+    
+    background-color: #24262b;
+}
+.container h5{
+    margin-top: 15px;
+    color: #ddd;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.methods{
+    color: #ddd;
+    flex-direction: column;
+}
