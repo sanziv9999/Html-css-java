@@ -24,6 +24,9 @@
     background-color: #fff;
     padding: 5px;
     overflow: hidden;
+    border:2px solid #24262b;
+    border-radius: 25px;
+
 }
 .button-box{
     width: 220px;
@@ -46,7 +49,8 @@
     position: absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to right, #000000,#c5c1c1);
+    /* background: #24262b; */
+    border: 2px solid #24262b;
     border-radius: 30px;
     transition: .5s;
     font-weight: bolder;
@@ -74,13 +78,21 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #000000,#878787);
-    border: 0;
+    /* background: #24262b; */
+    border: 2px solid #24262b;
+    /* border: 0; */
     text-align: center;
     outline: none;
     border-radius: 30px;
+    transform: 0.5s;
 
 }
+.submit-btn:hover{
+    background: #24262b;
+
+}
+
+
 .check-box{
     margin: 30px 10px 30px 0;
 }
